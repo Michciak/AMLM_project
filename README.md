@@ -14,4 +14,4 @@ In this project, I used a genetic algorithm approach to evolve neural network mo
 
 ## Project Components:
 
-- [X] Crate or get Snake like enviroment in Python.
+- [X] Crate or get Snake like enviroment in Python. </b> *For the Snake enviroment I used Snake game from user [github.com/ganeshkavhar](https://github.com/ganeshkavhar/snake-game-in-python-by-ganesh-kavhar)*
