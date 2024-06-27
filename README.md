@@ -101,11 +101,24 @@ I expected, so all I could do was try again.
 
 [//]: # (rcnn_old - zmiana architektury)
 
-
+Given the results achieved by LSTM and RNN, I decided to test 
+yet another neural network architecture. This time inspired by 
+"[Alpha GO](https://deepmind.google/technologies/alphago/)"  - 
+a breakthrough solution, prepared by Google DeepMind, which was 
+the first program that managed to beat a professional player in 
+"GO" - I set my sights on RCNN. This time, too, the only thing 
+that was changed was the network, and the rest of the code 
+remained unchanged.
 
 #### Result
 
-
+What I was able to get after training RCNN for a very long time 
+was not what I was aiming for, nevertheless, it was possible to 
+see a significant improvement over previous attempts, which gave 
+me hope and strength to continue. Playing back the gameplay using 
+the trained network, it was possible to see, admittedly quite 
+clumsy, but nevertheless some attempts to find the fruit in 
+proximity to the starting location.
 
 > **Network architecture:** RCNN
 > 
@@ -117,11 +130,26 @@ I expected, so all I could do was try again.
 
 [//]: # (rcnn - zmiana funkcji nagrody)
 
+Seeing the improvement, I decided to stay with this architecture. 
+What I had to do now was find a way to get more out of it. The step 
+I decided on was to use the new, more complex reward function and 
+teach from scratch using it. 
 
+The new reward function worked as follows:
+- for each step a small penalty equal to 1 was imposed,
+- for eating a fruit, the value of the reward function was increased 
+by 10,
+- ending the game by colliding with a wall or tail resulted in 
+a deduction of 10 points from the score.
 
 #### Result
 
+The result achieved turned out to be very close to the one I got in 
+the previous attempt, however, this time I managed to do it in a much 
+shorter time, which was undoubtedly a success.
 
+
+<img src="readme_src/rcnn_scores.png" alt="RCNN2 training results .gif" width="500"/>
 
 > **Network architecture:** RCNN
 > 
