@@ -149,7 +149,7 @@ the previous attempt, however, this time I managed to do it in a much
 shorter time, which was undoubtedly a success.
 
 
-<img src="readme_src/rcnn_scores.png" alt="RCNN2 training results .gif" width="500"/>
+<img src="readme_src/rcnn_scores.png" alt="RCNN2 training results .png" width="500"/>
 
 > **Network architecture:** RCNN
 > 
