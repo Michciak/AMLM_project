@@ -268,7 +268,7 @@ and resource-intensive nature of this project.
   - pygame 2.5.2 (SDL 2.28.3)
   - numpy
 
-- Harware:
+- Hardware:
   - Local machine:
     - GPU: Nvidia RTX 2070 Super
     - CPU: AMD Ryzen 3600
