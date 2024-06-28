@@ -256,3 +256,10 @@ convert the input into a matrix representing the values for each pixel on
 the board.
 
 For now, however, I (and more so my hardware) need a break, due to the time and resource-intensive nature of this project.
+
+## Technology stack
+
+- python 3.10.13
+- pytorch 2.2.1
+- pygame 2.5.2 (SDL 2.28.3)
+- numpy
