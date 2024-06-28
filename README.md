@@ -255,11 +255,24 @@ My next idea is to follow the inspiration of "Alpha GO" even further and
 convert the input into a matrix representing the values for each pixel on 
 the board.
 
-For now, however, I (and more so my hardware) need a break, due to the time and resource-intensive nature of this project.
+For now, however, I (and more so my hardware) need a break, due to the time 
+and resource-intensive nature of this project. 
+
+> Total network training time was almost 190 hours.
 
 ## Technology stack
 
-- python 3.10.13
-- pytorch 2.2.1
-- pygame 2.5.2 (SDL 2.28.3)
-- numpy
+- Software:
+  - python 3.10.13
+  - pytorch 2.2.1
+  - pygame 2.5.2 (SDL 2.28.3)
+  - numpy
+
+- Harware:
+  - Local machine:
+    - GPU: Nvidia RTX 2070 Super
+    - CPU: AMD Ryzen 3600
+    - RAM: 16GB 3200 MHz DDR4 
+  - Kaggle:
+    - GPU: Nvidia P100
+
