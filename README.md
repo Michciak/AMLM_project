@@ -258,7 +258,7 @@ the board.
 For now, however, I (and more so my hardware) need a break, due to the time 
 and resource-intensive nature of this project. 
 
-> Total network training time was almost 190 hours.
+> The total training time for all networks was almost 190 hours.
 
 ## Technology stack
 
