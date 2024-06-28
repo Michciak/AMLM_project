@@ -255,4 +255,4 @@ My next idea is to follow the inspiration of "Alpha GO" even further and
 convert the input into a matrix representing the values for each pixel on 
 the board.
 
-For now, however, I need (and more so my hardware) a break, due to the time and resource-intensive nature of this project.
+For now, however, I (and more so my hardware) need a break, due to the time and resource-intensive nature of this project.
