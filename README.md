@@ -226,8 +226,7 @@ shorter time, which was undoubtedly a success.
 Looking at the history of scores achieved, you can see that the previous 
 model capped around 25 score and showed no chance of improvement.
 Therefore, I decided to simplify the task by reducing the board to 
-240x240 pixels, which brought a significant improvement on the scores 
-achieved.
+240x240 pixels, which brought a significant improvement on the results.
 
 #### Result
 
